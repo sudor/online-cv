@@ -28,7 +28,15 @@
       </span>
 
       {% if project.tagline %}
-      - <pre class="project-tagline projects">{{ project.tagline }}</pre>
+        {% for tl in project.tagline %}
+          <p class="project-tagline">{{ tl.summary }}</p>
+          {% for s in tl.statistics %}
+            <div class="project-tagline">{{ s }}</div>
+          {% endfor %}
+          {% for p in tl.problems %}
+            <div class="project-tagline">{{ p }}</div>
+          {% endfor %}
+        {% endfor %}
       {% endif %}
 
     </div><!--//item-->
