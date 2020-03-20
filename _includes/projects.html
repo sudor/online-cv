@@ -30,20 +30,22 @@
       {% if project.tagline %}
         {% for tl in project.tagline %}
           <p class="project-tagline">{{ tl.summary }}</p>
-          <hr>
-          <div><strong>简要数据描述:</strong></div>
-          {% for s in tl.statistics %}
-            <div class="project-tagline">{{ s }}</div>
-          {% endfor %}
-          <hr>
-          <p><strong>遇到问题收集:</strong></p>
-          {% for p in tl.problems %}
-            <div class="project-tagline">{{ p }}</div>
-          {% endfor %}
+          {% if tl.statistics %}
+            <p><strong>简要数据描述:</strong></p>
+            {% for s in tl.statistics %}
+              <div class="project-tagline">{{ s }}</div>
+            {% endfor %}
+            <br>
+            <p><strong>遇到问题收集:</strong></p>
+            {% for p in tl.problems %}
+              <div class="project-tagline">{{ p }}</div>
+            {% endfor %}
+          {% endif %}
         {% endfor %}
       {% endif %}
 
     </div><!--//item-->
+    <hr>
   {% endfor %}
 
 </section><!--//section-->
