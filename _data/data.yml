@@ -25,34 +25,25 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: 英语
+        level: 四级
 
     interests:
-      - item: Climbing
+      - item: 看书
         link:
 
-      - item: Snowboarding
+      - item: 旅游
         link:
 
-      - item: Cooking
+      - item: 编程
         link:
 
 career-profile:
-    title: Career Profile
+    title: 个人简介
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      1年功能测试经验，5年测开经验，主要致力于测试团队效能提升工作，通过集成测试能力于平台上帮助测试团队提升测试效率与准确性，
+      如工具平台、自动化测试平台、业务测试平台、监控平台、mock平台等。常用/设计技术栈: flask/django、celery、gunicorn、supervisor、docker等;
+      前端技术栈: vue、ui-elelement、vcharts等; 中间件: jenkins、mysql、redis、rabbitmq等; 监控工具: flower、grafana、sentry等。
 education:
     - degree: 本科学士
       university: 湖北武汉理工大学
@@ -168,4 +159,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">kitar.zheng</a>
