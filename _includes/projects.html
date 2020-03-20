@@ -30,9 +30,11 @@
       {% if project.tagline %}
         {% for tl in project.tagline %}
           <p class="project-tagline">{{ tl.summary }}</p>
+          <p>简要数据描述:</p>
           {% for s in tl.statistics %}
             <div class="project-tagline">{{ s }}</div>
           {% endfor %}
+          <p>遇到问题收集:</p>
           {% for p in tl.problems %}
             <div class="project-tagline">{{ p }}</div>
           {% endfor %}
