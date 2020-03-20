@@ -56,7 +56,7 @@ experiences:
       details: |
         负责公司测试团队测试效能、质量保障能力的提升工作；带领小组进行测试团队在公司技术体系的大中台建设，
         让测试技术充分应用于项目持续交付中，并提高测试效率！最终目的是让测试更加高效、便捷、准确！我们的成果主要有:
-          - 自动化测试平台、数据银行平台、业务测试平台、常用工具平台、mock平台、数据监控平台、接口测试平台、协作管理平台等;
+        自动化测试平台、数据银行平台、业务测试平台、常用工具平台、mock平台、数据监控平台、接口测试平台、协作管理平台等;
     - role: 测试开发工程师
       time: 2015-06 至 2017-04
       company: 深圳市云之讯技术服务有限公司
@@ -70,15 +70,21 @@ experiences:
         任职于智能电视(DTV)核心芯片研发项目组，主要从事linux图形驱动白盒测试(c++)、Android中间层(midleware)接口测试(java)、
         整机android多媒体模块自动化测试(python)；对敏捷开发、devops有了深刻的映像与实践经验;
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: 重点项目介绍
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: 自动化测试平台建设项目
+        tagline: |
+          在组织测试部自动化测试工作的开展过程中，先为团队引进rf框架并进行二次开发满足团队开发的需求与能力，后为解决公司业务流程长、
+          异步回调多、场景多样化等因素导致的自动化用例执行耗时长，且不易统计覆盖率等方面的问题，自研了一套自动化测试平台，
+          平台包括本地调试框架以及线上并行执行平台，其主要特点是：效率与精准, 在总体效率上提升了50倍+,
+          并收集了所有执行过程数据以供质量数据分析！支持将本地调试用例一键上传、更新到线上平台，或者从线上平台同步用例到本地进行调试；
+          支持在线上平台进行用例编辑以及用例并行执行的功能；支持将自动化用例与功能用例进行一键一对一关联，使得自动化覆盖率得以精准统计；
+          支持为业务测试平台的测试计划提供计划用例的一键自动化测试功能，并回填测试结果；并与协作管理平台的环境检测功能进行联动，
+          为其在环境可用性上的检测能力提供鼎力支撑！
+            - 简要数据描述：
+              - 平台研发耗时: 独立4个月研发完成并推广使用
+              - 平台数据简要: 现共接入17个自动化测试项目，64位开发者接入，半年内共开发出2W+用例、发起构建3W+次、执行用例30W+，
+                用例覆盖率: 40%+，发现200+bug等，为业务测试平台发起3000+次需求构建，为协作管理平台提供4000+次环境检测构建。
 
       - title: DevStudio
         link: "#"
@@ -96,27 +102,27 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
