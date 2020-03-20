@@ -29,16 +29,16 @@
 
       {% if project.tagline %}
         {% for tl in project.tagline %}
-          <span class="project-tagline">{{ tl.summary }}</span>
+          <p class="project-tagline">{{ tl.summary }}</p>
           {% if tl.statistics %}
             <p><strong>简要数据描述:</strong></p>
             {% for s in tl.statistics %}
-              <span class="project-tagline">{{ s }}</span>
+              <div class="project-tagline">{{ s }}</div>
             {% endfor %}
             <br>
             <p><strong>遇到问题收集:</strong></p>
             {% for p in tl.problems %}
-              <span class="project-tagline">{{ p }}</span>
+              <div class="project-tagline">{{ p }}</div>
             {% endfor %}
           {% endif %}
         {% endfor %}
