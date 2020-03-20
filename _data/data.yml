@@ -29,13 +29,7 @@ sidebar:
         level: 四级
 
     interests:
-      - item: 看书
-        link:
-
-      - item: 旅游
-        link:
-
-      - item: 编程
+      - item: 看书 旅游 编程
         link:
 
 career-profile:
@@ -70,10 +64,10 @@ experiences:
         任职于智能电视(DTV)核心芯片研发项目组，主要从事linux图形驱动白盒测试(c++)、Android中间层(midleware)接口测试(java)、
         整机android多媒体模块自动化测试(python)；对敏捷开发、devops有了深刻的映像与实践经验;
 projects:
-    title: 重点项目介绍
+    title: 项目经验
     assignments:
       - title: 自动化测试平台建设项目
-        tagline: |
+        tagline: "
           在组织测试部自动化测试工作的开展过程中，先为团队引进rf框架并进行二次开发满足团队开发的需求与能力，后为解决公司业务流程长、
           异步回调多、场景多样化等因素导致的自动化用例执行耗时长，且不易统计覆盖率等方面的问题，自研了一套自动化测试平台，
           平台包括本地调试框架以及线上并行执行平台，其主要特点是：效率与精准, 在总体效率上提升了50倍+,
@@ -81,11 +75,8 @@ projects:
           支持在线上平台进行用例编辑以及用例并行执行的功能；支持将自动化用例与功能用例进行一键一对一关联，使得自动化覆盖率得以精准统计；
           支持为业务测试平台的测试计划提供计划用例的一键自动化测试功能，并回填测试结果；并与协作管理平台的环境检测功能进行联动，
           为其在环境可用性上的检测能力提供鼎力支撑！
-            - 简要数据描述：
-              - 平台研发耗时: 独立4个月研发完成并推广使用
-              - 平台数据简要: 现共接入17个自动化测试项目，64位开发者接入，半年内共开发出2W+用例、发起构建3W+次、执行用例30W+，
-                用例覆盖率: 40%+，发现200+bug等，为业务测试平台发起3000+次需求构建，为协作管理平台提供4000+次环境检测构建。
-
+          平台研发耗时: 独立4个月研发完成并推广使用
+          平台数据简要: 现共接入17个自动化测试项目，64位开发者接入，半年内共开发出2W+用例、发起构建3W+次、执行用例30W+，用例覆盖率: 40%+，发现200+bug等，为业务测试平台发起3000+次需求构建，为协作管理平台提供4000+次环境检测构建。"
       - title: DevStudio
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
@@ -125,26 +116,17 @@ projects:
 #        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: 技能 &amp; 熟练程度
 
     toolset:
       - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Vue
+        level: 85%
+
+      - name: 自动化测试
+        level: 90%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">kitar.zheng</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="https://sudor.github.io/online-cv/" rel="nofollow">kitar.zheng</a>
