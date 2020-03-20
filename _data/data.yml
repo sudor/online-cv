@@ -65,6 +65,7 @@ experiences:
         整机android多媒体模块自动化测试(python)；对敏捷开发、devops有了深刻的映像与实践经验;
 projects:
     title: 项目经验
+    intro: 此处仅罗列最新开发的重点项目.
     assignments:
       - title: 自动化测试平台建设项目
         tagline:

@@ -29,6 +29,7 @@
 
       {% if project.tagline %}
         {% for tl in project.tagline %}
+          <hr>
           <p class="project-tagline">{{ tl.summary }}</p>
           {% if tl.statistics %}
             <p><strong>简要数据描述:</strong></p>
