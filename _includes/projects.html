@@ -35,16 +35,17 @@
           {% for l in tl.lights %}
             <div class="project-tagline">{{ l }}</div>
           {% endfor %}
-
+          <br>
           <p><strong>简要数据描述:</strong></p>
           {% for s in tl.statistics %}
             <div class="project-tagline">{{ s }}</div>
           {% endfor %}
           <br>
           <p><strong>攻克难点记录:</strong></p>
-          {% for p in tl.problems %}
+          {% for p in tl.difficults %}
             <div class="project-tagline">{{ p }}</div>
           {% endfor %}
+          <br>
           <p><strong>涉及技术栈:</strong> {{tl.technologies}}</p>
         {% endfor %}
       {% endif %}
