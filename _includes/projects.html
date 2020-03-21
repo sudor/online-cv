@@ -28,6 +28,7 @@
       </span>
 
       {% if project.tagline %}
+        {% for tl in project.tagline %}
           <hr>
           <p class="project-tagline">{{ tl.summary }}</p>
           <p><strong>亮点与特色:</strong></p>
@@ -45,6 +46,7 @@
             <div class="project-tagline">{{ p }}</div>
           {% endfor %}
           <p><strong>涉及技术栈:</strong> {{tl.technologies}}</p>
+        {% endfor %}
       {% endif %}
 
     </div><!--//item-->
