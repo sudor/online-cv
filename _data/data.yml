@@ -92,7 +92,7 @@ projects:
               - "5. 前端编辑参数时, BIG-INT类型数据如何展示以及存储？"
               - "6. 用例上下文参数如何传递以及识别？"
               - "7. 自动化测试驱动理论在线上以及线下实践区别？"
-            technologies: django celery gunicorn vue ui-element drf rf rabbimq redis mysql docker jenkins supervisor
+            technologies: "django celery gunicorn vue ui-element drf rf rabbimq redis mysql docker jenkins supervisor"
 
       - title: 数据银行平台项目
         tagline:
@@ -114,7 +114,7 @@ projects:
               - "1. 造数步骤中的关键数据如何识别？"
               - "2. 取数时没有数据如何解决？"
               - "3. 造数死循环的问题如何解决？"
-            technologies: django celery gunicorn vue ui-element drf rabbimq redis mysql docker jenkins supervisor
+            technologies: "django celery gunicorn vue ui-element drf rabbimq redis mysql docker jenkins supervisor"
 
       - title: 线上数据监控平台项目
         tagline:
@@ -135,7 +135,7 @@ projects:
               - "1. 线上数据库权限如何控制？"
               - "2. 如何实时更新任务代码？"
               - "3. 告警策略如何制定？"
-            technologies: flask celery gunicorn bootstrap rabbimq redis mysql jenkins supervisor
+            technologies: "flask celery gunicorn bootstrap rabbimq redis mysql jenkins supervisor"
 
       - title: 业务接入能力工具集私库项目
         tagline:
@@ -152,7 +152,7 @@ projects:
               - "1. 如何解决在办公环境下与测试环境隔离下的mysql、redis等的代码操作？"
               - "2. http请求在并行执行过程中如何维持登入态？"
               - "3. prtobuf协议如何同时支持多分支？"
-            technologies: jsonrpc、cmq、mysql、redis、cmpp、protobuf、https、++
+            technologies: "jsonrpc、cmq、mysql、redis、cmpp、protobuf、https、++"
 
 #publications:
 #    title: Publications
