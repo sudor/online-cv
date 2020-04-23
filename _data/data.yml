@@ -40,10 +40,10 @@ career-profile:
       前端技术栈: vue、ui-elelement、vcharts等; 中间件: jenkins、mysql、redis、rabbitmq等; 监控工具: flower、grafana、sentry等。
       现在是我司自动化测试领域的探索者与领路人, 在测试架构上也有一定研究以及实践经验！
 education:
-    - degree: 电子信息科学与技术专业
+    - degree: 本科学士
       university: 湖北武汉理工大学
       time: 2010 - 2014
-      details: 电子信息科学与技术
+      speciality: 电子信息科学与技术
 experiences:
     - role: 测试开发工程师
       time: 2017-04 至今
